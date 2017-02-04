@@ -1,0 +1,25 @@
+current directory: /Users/irJERAD/Documents/RTJ/Run-The-Jewels.github.io/vendor/bundle/ruby/2.4.0/gems/posix-spawn-0.3.6/ext
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170203-10214-1c1dyv.rb extconf.rb 
+creating Makefile
+
+current directory: /Users/irJERAD/Documents/RTJ/Run-The-Jewels.github.io/vendor/bundle/ruby/2.4.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR=" clean
+
+current directory: /Users/irJERAD/Documents/RTJ/Run-The-Jewels.github.io/vendor/bundle/ruby/2.4.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR="
+compiling posix-spawn.c
+In file included from posix-spawn.c:14:
+In file included from /usr/local/Cellar/ruby/2.4.0/include/ruby-2.4.0/ruby.h:33:
+In file included from /usr/local/Cellar/ruby/2.4.0/include/ruby-2.4.0/ruby/ruby.h:24:
+/usr/local/Cellar/ruby/2.4.0/include/ruby-2.4.0/x86_64-darwin16/ruby/config.h:17:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE 1
+        ^
+posix-spawn.c:3:9: note: previous definition is here
+#define _GNU_SOURCE
+        ^
+1 warning generated.
+linking shared-object posix_spawn_ext.bundle
+
+current directory: /Users/irJERAD/Documents/RTJ/Run-The-Jewels.github.io/vendor/bundle/ruby/2.4.0/gems/posix-spawn-0.3.6/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20170203-10214-1b80pys

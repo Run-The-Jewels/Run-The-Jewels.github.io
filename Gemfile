@@ -11,4 +11,5 @@ group :development do
   gem "httpclient", "~> 2.3.1"
   gem "clipboard", "~> 1.0.1"
   gem "htmlentities", "~> 4.3.1"
+  gem "yajl-ruby", "1.1.0"
 end

@@ -8,7 +8,7 @@ paginate: 10
 
 replace_absolute: "/media/"
 absolute_path: ""
-root: "jekyllgram.com"
-instagram_client_id: "4f82d0b740ee4556b371647f1193a85e"
-instagram_redirect_uri: "http://jekyllgram.com"
+root: "runthejewels.xyz"
+instagram_client_id: "9ed4a700d97a44c588d5ea02eecae2fb"
+instagram_redirect_uri: "http://run-the-jewels.github.io"
 max_caption_created_diff: 600
